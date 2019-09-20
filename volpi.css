@@ -18,17 +18,15 @@ body {
 
 .section-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(64, 138, 160, 0.2)),
-    url("img/dupreez1.jpg") no-repeat fixed;
+    url("img/dupreez1.jpg") no-repeat center fixed;
   background-size: cover;
-  background-position: center;
   height: 100vh;
 }
 
 .section-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(64, 138, 160, 0.2)),
-    url("img/dupreez3.jpg") no-repeat fixed;
+    url("img/dupreez3.jpg") no-repeat center fixed;
   background-size: cover;
-  background-position: center;
   height: 100vh;
 }
 
