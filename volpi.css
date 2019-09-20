@@ -163,23 +163,23 @@ body {
 .font-2,
 .font-3,
 .font-4 {
-  font: 20px/1.7 "Acre", sans-serif;
+  font: 20px/1.7 "Source Code Pro", sans-serif;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .font-3 {
-  font: bold 24px/1.7 "Roboto Mono", sans-serif;
+  font: bold 24px/1.7 "Open Sans", sans-serif;
 }
 
 .font-4 {
-  font: 14px/1.6 "Fira Code", sans-serif;
+  font: 14px/1.6 "Source Code Pro", sans-serif;
   color: #fff;
 }
 
 .font-5 {
-  font: 20px/1.7 "Fira Code", sans-serif;
+  font: 20px/1.7 "Open Sans", sans-serif;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
