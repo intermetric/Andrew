@@ -5,7 +5,6 @@ Volpi 1.0
 Copyright (c) 2019 Tipue
 Volpi is released under the MIT License
 http://www.tipue.com/grids
-Modified by Rando Leppik.
 -->
 
 <html lang="en">
@@ -13,33 +12,67 @@ Modified by Rando Leppik.
     <meta charset="utf-8" />
 
     <title>Andrew Wesborn</title>
-    <meta name="description" content="Volpi is a responsive CSS Grid." />
+    <meta name="description" content="Andrew Wesborn portfolio" />
     <meta name="author" content="Tipue" />
 
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
     />
 
-    <link rel="stylesheet" href="volpi.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/volpi.css" />
+
+    <link rel="stylesheet" href="_sass/hamburgers/hamburgers.css" />
   </head>
   <body>
     <div class="section-1">
+      <div
+        data-aos="fade-down"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="900"
+        class="hamburger hamburger--elastic"
+      >
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
       <div class="content-1">
-        <div class="font-1">Andrew Wesborn</div>
-        <div class="content-2 font-2">
-          <p>Listen <a href="http://www.tipue.com/grids/">here</a></p>
+        <div
+          data-aos="fade-down"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="900"
+          class="font-1"
+        >
+          Andrew Wesborn
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="900"
+          class="content-2 font-2"
+        >
+          <p>Listen <a href="#">here</a></p>
         </div>
       </div>
       <div class="content-3 font-2">
         <!-- Learn More -->
-        <a href="#item-1"><div class="arrow"></div></a>
+        <a href="#ar-1"
+          ><div
+            data-aos="fade-up-right"
+            data-aos="flip-up"
+            data-aos-duration="800"
+            class="arrow"
+          ></div
+        ></a>
         <!-- <div class="content-4">&#8609;</div> -->
       </div>
     </div>
 
     <div class="grid">
-      <div id="item-1" class="item-1">
-        <div class="content-5">
+      <div id="ar-1" class="item-1">
+        <div data-aos="fade-up" data-aos-duration="1100" class="content-5">
           <div class="font-5">
             Andrew Wesborn is a folk musician from Dallas, Texas.
             <p>
@@ -49,17 +82,18 @@ Modified by Rando Leppik.
             <br />
             <p>
               Check out the tour dates
-              <a href="http://www.tipue.com/grids/">here</a>.
+              <a href="#">here</a>.
             </p>
+            <p class="scroll"></p>
           </div>
         </div>
       </div>
 
       <div class="item-2"></div>
 
-      <div class="item-3">
-        <a class="click-grid" href="http://www.tipue.com/grids/"
-          ><div class="content-7">
+      <div id="ar-2" class="item-3">
+        <a class="click-grid" href="#"
+          ><div data-aos="fade-up" data-aos-duration="1100" class="content-7">
             <div class="font-3">Contact / Booking</div>
             <div class="font-4 content-6"></div></div
         ></a>
@@ -68,7 +102,7 @@ Modified by Rando Leppik.
       <div class="item-4"></div>
 
       <div class="item-5">
-        <div class="content-7">
+        <div data-aos="fade-up" data-aos-duration="1100" class="content-7">
           <div class="font-3">Et ad augue</div>
           <div class="font-4 content-6">
             Wisi augue suscipit dolore aliquam iusto odio, dolore dolor ut ad
@@ -84,72 +118,52 @@ Modified by Rando Leppik.
     </div>
 
     <div class="section-2">
-      <div class="content-9">
+      <div data-aos="fade-up" data-aos-duration="1100" class="content-9">
         <div class="font-3">Releases</div>
 
         <div class="font-2 content-6"></div>
       </div>
     </div>
 
-    <div class="section-3">
+    <!-- <div class="section-3">
       <div class="grid">
         <div class="item-6">
           <div class="content-8">
-            <div class="font-3">Feugiat dolore</div>
+            <div class="font-3">ICON1</div>
             <div class="font-4 content-6">
-              Suscipit autem wisi iusto, at feugiat in illum dolore magna velit
-              eum. Laoreet nisl ullamcorper at.
-              <p>
-                Tation blandit molestie eum exerci vero nostrud iriure
-                tincidunt.
-              </p>
+              <p></p>
             </div>
           </div>
         </div>
 
         <div class="item-7">
           <div class="content-8">
-            <div class="font-3">Consequat</div>
+            <div class="font-3">ICON2</div>
             <div class="font-4 content-6">
-              Vel duis in minim eum zzril, minim odio suscipit dignissim
-              accumsan nonummy erat consequat vero nisl.
-              <p>
-                Enim dignissim minim ut hendrerit dolore eu aliquam esse,
-                feugiat augue.
-              </p>
+              <p></p>
             </div>
           </div>
         </div>
 
         <div class="item-8">
           <div class="content-8">
-            <div class="font-3">Exerci vero</div>
+            <div class="font-3">ICON3</div>
             <div class="font-4 content-6">
-              Aliquip nibh duis veniam enim at ea feugait nulla vero ut molestie
-              exerci vero nostrud.
-              <p>
-                Iriure duis ipsum erat accumsan minim delenit dolore amet
-                blandit enim.
-              </p>
+              <p></p>
             </div>
           </div>
         </div>
 
         <div class="item-7">
           <div class="content-8">
-            <div class="font-3">Laoreet ex</div>
+            <div class="font-3">ICON4</div>
             <div class="font-4 content-6">
-              Blandit in te, tation praesent ex zzril qui laoreet ad iriure
-              iusto commodo, euismod dolore dolor.
-              <p>
-                Delenit consequat consequat tation erat nostrud in blandit vel
-                laoreet lorem consectetuer.
-              </p>
+              <p></p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="section-4 font-4">
       Andrew Wesborn &copy;
@@ -167,6 +181,44 @@ Modified by Rando Leppik.
       crossorigin="anonymous"
     ></script>
 
-    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- <script src="app.js"></script> -->
+
+    <script>
+      /**
+       * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+       *
+       * @private
+       * @author Todd Motto
+       * @link https://github.com/toddmotto/foreach
+       * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+       * @callback requestCallback      callback   - Callback function for each iteration.
+       * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+       * @returns {}
+       */
+      let forEach = function(t, o, r) {
+        if ("[object Object]" === Object.prototype.toString.call(t))
+          for (let c in t)
+            Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+        else for (let e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t);
+      };
+
+      let hamburgers = document.querySelectorAll(".hamburger");
+      if (hamburgers.length > 0) {
+        forEach(hamburgers, function(hamburger) {
+          hamburger.addEventListener(
+            "click",
+            function() {
+              this.classList.toggle("is-active");
+            },
+            false
+          );
+        });
+      }
+    </script>
   </body>
 </html>
