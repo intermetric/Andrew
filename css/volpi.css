@@ -4,6 +4,10 @@
   color: #fff;
 }
 
+.font-1:hover {
+  cursor: pointer;
+}
+
 .font-2,
 .font-3,
 .font-4 {
@@ -114,13 +118,8 @@ body {
   height: 100vh;
 }
 
-button.wow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+ul#menu {
+  display: none;
 }
 
 .section-2 {
