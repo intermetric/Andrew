@@ -23,8 +23,63 @@ body {
   height: 100vh;
 }
 
-ul#menu {
-  display: none;
+// ul#menu {
+//   display: none;
+// }
+nav > ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+input[type="checkbox"],
+input:checked {
+  opacity: 0;
+}
+
+input ~ nav {
+  background: rgb(19, 36, 17);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  > ul {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    right: 20%;
+    > li {
+      opacity: 0;
+    }
+  }
+}
+input:checked ~ nav {
+  opacity: 1;
+  height: 100vh;
+  transition: 0.2s;
+  > ul {
+    list-style-type: none;
+    > li {
+      opacity: 1;
+      transition: 0.2s;
+    }
+    > a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      font-size: 4rem;
+      font-family: "Nexa";
+      font-weight: 400;
+      display: block;
+      padding: 30px;
+
+      :hover {
+        color: rgb(102, 102, 102);
+      }
+    }
+  }
 }
 
 .section-2 {
