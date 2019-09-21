@@ -237,21 +237,21 @@ p.scroll {
   border-top: none;
   border-right: 2px rgb(202, 202, 202) solid;
   border-bottom: 2px rgb(202, 202, 202) solid;
-}
 
-.arrow:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  margin: -10px 0 0 -10px;
-  border-left: none;
-  border-top: none;
-  border-right: 1px #fff solid;
-  border-bottom: 1px #fff solid;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: arrow;
+  :before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
+  }
 }
 
 @keyframes arrow {

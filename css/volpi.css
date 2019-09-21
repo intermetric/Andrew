@@ -342,7 +342,7 @@ p.scroll {
   border-bottom: 2px #cacaca solid;
 }
 
-.arrow:before {
+.arrow :before {
   content: "";
   width: 20px;
   height: 20px;
