@@ -1,0 +1,40 @@
+@media (min-width: 900px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 0;
+  }
+
+  .item-1 {
+    grid-column: span 6;
+    grid-row: span 3;
+  }
+
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5,
+  .item-6,
+  .item-7,
+  .item-8 {
+    grid-column: span 3;
+    grid-row: span 3;
+  }
+
+  .item-4,
+  .item-8 {
+    order: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-1 {
+    padding-top: 50px;
+  }
+
+  .item-2,
+  .item-4 {
+    min-height: 230px;
+  }
+}

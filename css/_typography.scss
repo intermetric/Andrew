@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,700|Source+Code+Pro");
+
+// @font-face {
+//   font-family: "Ebony";
+//   src: url("Ebony-Heavy.woff");
+// }
+
+.font-1 {
+  font: 100px/1.1 "Nexa", serif;
+  color: #fff;
+}
+
+.font-2,
+.font-3,
+.font-4 {
+  font: 20px/1.7 "Source Code Pro", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.font-3 {
+  font: bold 24px/1.7 "Open Sans", sans-serif;
+}
+
+.font-4 {
+  font: 14px/1.6 "Source Code Pro", sans-serif;
+  color: #fff;
+}
+
+.font-5 {
+  font: 20px/1.7 "Open Sans", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.font-5 p a {
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+}
+
+.font-5 p a:hover {
+  color: rgb(94, 77, 77);
+}
+
+.font-2 a,
+.font-4 a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+.font-2 a:hover,
+.font-4 a:hover {
+  border: 0;
+}
