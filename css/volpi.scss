@@ -23,9 +23,6 @@ body {
   height: 100vh;
 }
 
-// ul#menu {
-//   display: none;
-// }
 nav > ul {
   margin: 0;
   padding-left: 0;
@@ -55,6 +52,7 @@ input ~ nav {
     }
   }
 }
+
 input:checked ~ nav {
   opacity: 1;
   height: 100vh;
