@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,700|Source+Code+Pro");
 .font-1 {
-  font: 100px/1.1 "Nexa", serif;
+  font: 100px/1.1 "Abril Fatface", serif;
   color: #fff;
 }
 
@@ -141,7 +141,7 @@ input ~ nav {
 input ~ nav > ul {
   text-align: center;
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 20%;
   right: 20%;
 }
@@ -213,7 +213,7 @@ input:checked ~ nav > ul > a :hover {
 .item-4 {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100h;
 }
 
 .item-2 {
